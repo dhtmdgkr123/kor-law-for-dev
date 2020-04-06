@@ -1,4 +1,4 @@
-// 비밀번호 저장.js
+// 비밀번호_저장.js
 const fs = require('fs');
 const bcrypt = require('bcrypt');
 const [password] = process.argv.slice(2);
